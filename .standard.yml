@@ -1,0 +1,8 @@
+ignore:
+  # have to use a global variable for the "database"
+  - app/**/*:
+      - Style/GlobalVars
+  - config/**/*:
+      - Style/GlobalVars
+  - spec/**/*:
+      - Style/GlobalVars
